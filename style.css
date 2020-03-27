@@ -1,0 +1,139 @@
+body{
+    background-image: url(img/diet-food.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Tangerine' sans-serif;
+}
+/*Index.html*/
+header {
+    border: white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#logo {
+    border-radius: 30px;
+    border: solid;
+    filter: drop-shadow(8px 8px 8px #222222);
+    border-color: rgba(201, 148, 4, 0.808);
+    border-width: 5px;
+}
+
+#logo:hover {
+    transition: all 0.5s;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0;
+    font-style: oblique;
+    font-family: 'Tangerine';
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+li:hover {
+    color: white;
+    background: none;
+    transition: all 0.5s;
+}
+
+li {
+    color: rgba(201, 148, 4, 0.808);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    font-size: 50px;
+    position: relative;
+    letter-spacing: 15px;
+    font-family: serif;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2px;
+    margin-top: 0;
+    margin-left: 500px;
+    margin-right: 500px;
+    filter: drop-shadow(6px 6px 6px #222222);
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 7px;
+    border-color: rgba(201, 148, 4, 0.808);
+    text-align: center;
+}
+
+/*untuk about.html*/
+.about {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+#label {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+#yourName {
+    color: black;
+}
+
+#gender {
+    color: black;
+}
+
+#beratBadan {
+    color: black;
+}
+
+#tinggiBadan {
+    color: black;
+}
+
+#description {
+    border-style: solid;
+    border-color: rgba(201, 148, 4, 0.808);
+    border-width: 7px;
+    padding: 15px;
+    margin-right: 500px;
+    background-color: black;
+}
+
+#home {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+#about {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+#tips {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+#resume {
+    color: rgba(201, 148, 4, 0.808);
+}
+
+
+
+
+.list {
+    text-decoration: none;
+    font-weight: bold;
+    color: gold;
+}
+
+.list:hover {
+    color: white;
+    background: none;
+    transition: all 0.5s;
+}
